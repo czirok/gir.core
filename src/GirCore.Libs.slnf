@@ -25,6 +25,7 @@
       "Libs\\Gtk-4.0\\Gtk-4.0.csproj",
       "Libs\\GtkSource-5\\GtkSource-5.csproj",
       "Libs\\HarfBuzz-0.0\\HarfBuzz-0.0.csproj",
+      "Libs\\Notify-0.7\\Notify-0.7.csproj",
       "Libs\\Pango-1.0\\Pango-1.0.csproj",
       "Libs\\PangoCairo-1.0\\PangoCairo-1.0.csproj",
       "Libs\\Rsvg-2.0\\Rsvg-2.0.csproj",
