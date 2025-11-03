@@ -11,6 +11,7 @@ let girFiles =
     [|
         "Adw-1.gir"
         "cairo-1.0.gir"
+        "fontconfig-2.0.gir"
         "freetype2-2.0.gir"
         "Gdk-4.0.gir"
         "GdkPixbuf-2.0.gir"
@@ -31,6 +32,7 @@ let girFiles =
         "JavaScriptCore-6.0.gir"
         "Pango-1.0.gir"
         "PangoCairo-1.0.gir"
+        "PangoFc-1.0.gir"
         "Rsvg-2.0.gir"
         "Secret-1.gir"
         "Soup-3.0.gir"
