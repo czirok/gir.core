@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PackageId>GirCore.Atk-1.0</PackageId>
-    <RootNamespace>Atk</RootNamespace>
-    <Description>C# bindings for Atk.</Description>
+    <PackageId>GirCore.Mtk-18</PackageId>
+    <RootNamespace>Mtk</RootNamespace>
+    <Description>C# bindings for Mtk-18.</Description>
   </PropertyGroup>
 
   <ItemGroup>
