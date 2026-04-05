@@ -19,6 +19,7 @@
   <Folder Name="/Libs/">
     <File Path="Libs/Directory.Build.props" />
     <Project Path="Libs/Adw-1/Adw-1.csproj" />
+    <Project Path="Libs/Atk-1.0/Atk-1.0.csproj" />
     <Project Path="Libs/cairo-1.0/cairo-1.0.csproj" />
     <Project Path="Libs/freetype2-2.0/freetype2-2.0.csproj" />
     <Project Path="Libs/Gdk-4.0/Gdk-4.0.csproj" />

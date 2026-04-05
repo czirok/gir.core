@@ -10,6 +10,7 @@ let extraFiles = fsi.CommandLineArgs[1..]
 let girFiles =
     [|
         "Adw-1.gir"
+        "Atk-1.0.gir"
         "cairo-1.0.gir"
         "freetype2-2.0.gir"
         "Gdk-4.0.gir"

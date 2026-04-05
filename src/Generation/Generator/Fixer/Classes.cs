@@ -11,6 +11,7 @@ public static class Classes
         new InternalMethodsNamedLikeClassFixer(),
         new PropertyNamedLikeClassFixer(),
         new PropertyLikeInterfacePropertyFixer(),
+        new InterfaceMethodsCollidingWithInterfaceMethodsFixer(),
         new InterfaceMethodsCollidingWithClassMethodsFixer(),
         new InterfaceMethodsCollidingWithClassConstructorsFixer(),
         new PublicMethodsWithCallbackParameterWithInvalidOutRecordParameterFixer(),

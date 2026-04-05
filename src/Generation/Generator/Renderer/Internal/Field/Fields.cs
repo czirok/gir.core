@@ -17,6 +17,7 @@ internal static class Fields
         new Field.EnumerationArray(),
         new Field.OpaqueTypedRecord(),
         new Field.OpaqueUntypedRecord(),
+        new Field.GLibPointerArray(),
         new Field.Pointer(),
         new Field.PointerAlias(),
         new Field.PointerArray(),
