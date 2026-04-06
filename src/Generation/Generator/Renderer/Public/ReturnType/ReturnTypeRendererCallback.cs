@@ -21,6 +21,7 @@ internal static class ReturnTypeRendererCallback
         new ReturnType.StringInCallback(),
         new ReturnType.TypedRecord(),
         new ReturnType.TypedRecordArray(),
+        new ReturnType.Union(),
         new ReturnType.Void(),
     };
 

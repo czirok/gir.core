@@ -13,6 +13,7 @@ internal static class InstanceParameterToNativeExpression
         new InstanceParameterToNativeExpressions.OpaqueUntypedRecord(),
         new InstanceParameterToNativeExpressions.Pointer(),
         new InstanceParameterToNativeExpressions.TypedRecord(),
+        new InstanceParameterToNativeExpressions.Union(),
         new InstanceParameterToNativeExpressions.UntypedRecord()
     };
 

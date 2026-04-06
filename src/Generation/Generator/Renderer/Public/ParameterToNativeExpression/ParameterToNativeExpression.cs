@@ -35,6 +35,7 @@ internal static class ParameterToNativeExpression
         new ParameterToNativeExpressions.PrimitiveValueTypeArray(),
         new ParameterToNativeExpressions.TypedRecord(),
         new ParameterToNativeExpressions.TypedRecordArray(),
+        new ParameterToNativeExpressions.Union(),
         new ParameterToNativeExpressions.UntypedRecord(),
         new ParameterToNativeExpressions.UntypedRecordArray(),
         new ParameterToNativeExpressions.Utf8String(),

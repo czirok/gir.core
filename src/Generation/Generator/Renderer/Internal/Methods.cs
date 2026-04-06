@@ -35,7 +35,7 @@ public static extern {ReturnTypeRenderer.Render(method.ReturnType)} {Method.GetI
         }
         catch (Exception e)
         {
-            Log.Warning($"Did not generate internal method '{method.Parent.Name}.{Method.GetPublicName(method)}': {e.Message}");
+            Log.Warning($"Did not generate internal method '{method.CIdentifier ?? method.Name}': {e.Message}");
 
             return string.Empty;
         }

@@ -39,7 +39,7 @@ internal static class MethodRenderer
         }
         catch (Exception e)
         {
-            var message = $"Did not generate method '{method.Parent.Name}.{Method.GetPublicName(method)}': {e.Message}";
+            var message = $"Did not generate method '{method.CIdentifier ?? method.Name}': {e.Message}";
 
             if (e is NotImplementedException)
                 Log.Debug(message);

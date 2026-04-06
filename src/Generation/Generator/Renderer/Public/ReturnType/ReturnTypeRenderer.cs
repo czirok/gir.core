@@ -24,6 +24,7 @@ internal static class ReturnTypeRenderer
         new ReturnType.StringArray(),
         new ReturnType.TypedRecord(),
         new ReturnType.TypedRecordArray(),
+        new ReturnType.Union(),
         new ReturnType.UntypedRecord(),
         new ReturnType.Void()
     ];

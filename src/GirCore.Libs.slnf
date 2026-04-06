@@ -10,6 +10,7 @@
       "Libs\\Adw-1\\Adw-1.csproj",
       "Libs\\Atk-1.0\\Atk-1.0.csproj",
       "Libs\\cairo-1.0\\cairo-1.0.csproj",
+      "Libs\\Clutter-18\\Clutter-18.csproj",
       "Libs\\Cogl-18\\Cogl-18.csproj",
       "Libs\\EGL-1.5\\EGL-1.5.csproj",
       "Libs\\freetype2-2.0\\freetype2-2.0.csproj",

@@ -12,6 +12,8 @@ public static class Unions
         {
             new Generator.Internal.UnionStruct(publisher),
             new Generator.Internal.UnionMethods(publisher),
+            new Generator.Public.UnionFramework(publisher),
+            new Generator.Public.UnionMethods(publisher),
         };
 
         foreach (var union in unions)

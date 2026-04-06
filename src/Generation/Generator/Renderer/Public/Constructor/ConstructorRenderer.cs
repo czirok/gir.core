@@ -41,7 +41,7 @@ public static {newKeyWord}{constructor.Parent.Name}{Nullable.Render(constructor.
         }
         catch (Exception e)
         {
-            var message = $"Did not generate constructor '{constructor.Parent.Name}.{Model.Constructor.GetName(constructor)}': {e.Message}";
+            var message = $"Did not generate constructor '{constructor.CIdentifier ?? constructor.Name}': {e.Message}";
 
             if (e is NotImplementedException)
                 Log.Debug(message);
