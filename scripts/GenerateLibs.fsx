@@ -12,6 +12,8 @@ let girFiles =
         "Adw-1.gir"
         "Atk-1.0.gir"
         "cairo-1.0.gir"
+        "Cogl-18.gir"
+        "EGL-1.5.gir"
         "freetype2-2.0.gir"
         "Gdk-4.0.gir"
         "GdkPixbuf-2.0.gir"
