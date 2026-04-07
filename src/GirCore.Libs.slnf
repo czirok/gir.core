@@ -34,6 +34,7 @@
       "Libs\\GstVideo-1.0\\GstVideo-1.0.csproj",
       "Libs\\Gtk-4.0\\Gtk-4.0.csproj",
       "Libs\\GtkSource-5\\GtkSource-5.csproj",
+      "Libs\\Gvc-1.0\\Gvc-1.0.csproj",
       "Libs\\HarfBuzz-0.0\\HarfBuzz-0.0.csproj",
       "Libs\\Mtk-18\\Mtk-18.csproj",
       "Libs\\P11Kit-0.26\\P11Kit-0.26.csproj",

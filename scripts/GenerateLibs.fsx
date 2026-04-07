@@ -37,6 +37,7 @@ let girFiles =
         "GstVideo-1.0.gir"
         "Gtk-4.0.gir"
         "GtkSource-5.gir"
+        "Gvc-1.0.gir"
         "HarfBuzz-0.0.gir"
         "JavaScriptCore-6.0.gir"
         "Mtk-18.gir"

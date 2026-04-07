@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>GirCore.Gvc-1.0</PackageId>
+    <RootNamespace>Gvc</RootNamespace>
+    <Description>C# bindings for libgvc.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GObject-2.0\GObject-2.0.csproj" />
+    <ProjectReference Include="..\Gio-2.0\Gio-2.0.csproj" />
+  </ItemGroup>
+</Project>
