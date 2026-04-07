@@ -57,6 +57,8 @@
     <Project Path="Libs/P11Kit-0.26/P11Kit-0.26.csproj" />
     <Project Path="Libs/Pango-1.0/Pango-1.0.csproj" />
     <Project Path="Libs/PangoCairo-1.0/PangoCairo-1.0.csproj" />
+    <Project Path="Libs/Polkit-1.0/Polkit-1.0.csproj" />
+    <Project Path="Libs/PolkitAgent-1.0/PolkitAgent-1.0.csproj" />
     <Project Path="Libs/Rsvg-2.0/Rsvg-2.0.csproj" />
     <Project Path="Libs/Secret-1/Secret-1.csproj" />
     <Project Path="Libs/Soup-3.0/Soup-3.0.csproj" />

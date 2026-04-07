@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>GirCore.PolkitAgent-1.0</PackageId>
+    <RootNamespace>PolkitAgent</RootNamespace>
+    <Description>C# bindings for libpolkit-agent.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GObject-2.0\GObject-2.0.csproj" />
+    <ProjectReference Include="..\Gio-2.0\Gio-2.0.csproj" />
+    <ProjectReference Include="..\Polkit-1.0\Polkit-1.0.csproj" />
+  </ItemGroup>
+</Project>

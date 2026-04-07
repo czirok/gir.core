@@ -47,6 +47,8 @@ let girFiles =
         "P11Kit-0.26.gir"
         "Pango-1.0.gir"
         "PangoCairo-1.0.gir"
+        "Polkit-1.0.gir"
+        "PolkitAgent-1.0.gir"
         "Rsvg-2.0.gir"
         "Secret-1.gir"
         "Soup-3.0.gir"

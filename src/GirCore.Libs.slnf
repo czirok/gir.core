@@ -43,6 +43,8 @@
       "Libs\\P11Kit-0.26\\P11Kit-0.26.csproj",
       "Libs\\Pango-1.0\\Pango-1.0.csproj",
       "Libs\\PangoCairo-1.0\\PangoCairo-1.0.csproj",
+      "Libs\\Polkit-1.0\\Polkit-1.0.csproj",
+      "Libs\\PolkitAgent-1.0\\PolkitAgent-1.0.csproj",      
       "Libs\\Rsvg-2.0\\Rsvg-2.0.csproj",
       "Libs\\Secret-1\\Secret-1.csproj",
       "Libs\\Soup-3.0\\Soup-3.0.csproj",
