@@ -18,6 +18,7 @@ let girFiles =
         "freetype2-2.0.gir"
         "Gck-2.gir"
         "Gcr-4.gir"
+        "GDesktopEnums-3.0.gir"
         "Gdk-4.0.gir"
         "GdkPixbuf-2.0.gir"
         "GdkWayland-4.0.gir"

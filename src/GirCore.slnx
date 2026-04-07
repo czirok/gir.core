@@ -27,6 +27,7 @@
     <Project Path="Libs/freetype2-2.0/freetype2-2.0.csproj" />
     <Project Path="Libs/Gck-2/Gck-2.csproj" />
     <Project Path="Libs/Gcr-4/Gcr-4.csproj" />
+    <Project Path="Libs/GDesktopEnums-3.0/GDesktopEnums-3.0.csproj" />
     <Project Path="Libs/Gdk-4.0/Gdk-4.0.csproj" />
     <Project Path="Libs/GdkPixbuf-2.0/GdkPixbuf-2.0.csproj" />
     <Project Path="Libs/GdkWayland-4.0/GdkWayland-4.0.csproj" />
