@@ -62,6 +62,7 @@
     <Project Path="Libs/Rsvg-2.0/Rsvg-2.0.csproj" />
     <Project Path="Libs/Secret-1/Secret-1.csproj" />
     <Project Path="Libs/Soup-3.0/Soup-3.0.csproj" />
+    <Project Path="Libs/St-18/St-18.csproj" />
     <Project Path="Libs/WebKit-6.0/WebKit-6.0.csproj" />
     <Project Path="Libs/WebKitWebProcessExtension-6.0/WebKitWebProcessExtension-6.0.csproj" />
     <Project Path="Libs/xfixes-4.0/xfixes-4.0.csproj" />

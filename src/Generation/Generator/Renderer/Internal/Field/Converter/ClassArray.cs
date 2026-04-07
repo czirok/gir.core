@@ -29,6 +29,10 @@ internal class ClassArray : FieldConverter
     private static string GetNullableTypeName(GirModel.Field field)
     {
         var arrayType = field.AnyTypeOrCallback.AsT0.AsT1;
+
+        if (arrayType.AnyType.TryPickT0(out var anyType, out _) && anyType is GirModel.Class @class)
+            return $"{Model.Namespace.GetPublicName(@class.Namespace)}.{Model.Type.GetName(@class)}[]";
+
         return ArrayType.GetName(arrayType);
     }
 }

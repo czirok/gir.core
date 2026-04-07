@@ -52,6 +52,7 @@ let girFiles =
         "Rsvg-2.0.gir"
         "Secret-1.gir"
         "Soup-3.0.gir"
+        "St-18.gir"
         "WebKit-6.0.gir"
         "WebKitWebProcessExtension-6.0.gir"
         "xfixes-4.0.gir"
