@@ -50,6 +50,8 @@ let girFiles =
         "Soup-3.0.gir"
         "WebKit-6.0.gir"
         "WebKitWebProcessExtension-6.0.gir"
+        "xfixes-4.0.gir"
+        "xlib-2.0.gir"
     |]
     |> Array.append extraFiles
     |> String.concat " "
