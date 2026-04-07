@@ -24,6 +24,7 @@ let girFiles =
         "GdkWin32-4.0.gir"
         "Gio-2.0.gir"
         "GLib-2.0.gir"
+        "GModule-2.0.gir"
         "GObject-2.0.gir"
         "Graphene-1.0.gir"
         "Gsk-4.0.gir"

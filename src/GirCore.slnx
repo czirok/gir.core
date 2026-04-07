@@ -34,6 +34,7 @@
     <Project Path="Libs/Gio-2.0/Gio-2.0.csproj" />
     <Project Path="Libs/GirTest-0.1/GirTest-0.1.csproj" />
     <Project Path="Libs/GLib-2.0/GLib-2.0.csproj" />
+    <Project Path="Libs/GModule-2.0/GModule-2.0.csproj" />
     <Project Path="Libs/GObject-2.0/GObject-2.0.csproj" />
     <Project Path="Libs/Graphene-1.0/Graphene-1.0.csproj" />
     <Project Path="Libs/Gsk-4.0/Gsk-4.0.csproj" />
