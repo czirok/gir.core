@@ -47,6 +47,7 @@
       "Libs\\PolkitAgent-1.0\\PolkitAgent-1.0.csproj",      
       "Libs\\Rsvg-2.0\\Rsvg-2.0.csproj",
       "Libs\\Secret-1\\Secret-1.csproj",
+      "Libs\\Shell-18\\Shell-18.csproj",
       "Libs\\Soup-3.0\\Soup-3.0.csproj",
       "Libs\\St-18\\St-18.csproj",
       "Libs\\WebKit-6.0\\WebKit-6.0.csproj",

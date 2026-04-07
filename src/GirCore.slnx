@@ -61,6 +61,7 @@
     <Project Path="Libs/PolkitAgent-1.0/PolkitAgent-1.0.csproj" />
     <Project Path="Libs/Rsvg-2.0/Rsvg-2.0.csproj" />
     <Project Path="Libs/Secret-1/Secret-1.csproj" />
+    <Project Path="Libs/Shell-18/Shell-18.csproj" />
     <Project Path="Libs/Soup-3.0/Soup-3.0.csproj" />
     <Project Path="Libs/St-18/St-18.csproj" />
     <Project Path="Libs/WebKit-6.0/WebKit-6.0.csproj" />

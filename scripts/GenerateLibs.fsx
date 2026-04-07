@@ -51,6 +51,7 @@ let girFiles =
         "PolkitAgent-1.0.gir"
         "Rsvg-2.0.gir"
         "Secret-1.gir"
+        "Shell-18.gir"
         "Soup-3.0.gir"
         "St-18.gir"
         "WebKit-6.0.gir"
