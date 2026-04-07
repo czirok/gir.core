@@ -123,9 +123,8 @@ internal class Utf8StringArray : ToNativeParameterConverter
 
         var lengthIndex = parameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT1.Length ?? throw new Exception("Length missing");
         var lengthParameter = allParameters.ElementAt(lengthIndex);
-        var lengthParameterType = Model.Type.GetName(lengthParameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT0);
         lengthParameter.IsArrayLengthParameter = true;
-        lengthParameter.SetCallName(() => $"({lengthParameterType}) {nativeVariableName}.Size");
+        lengthParameter.SetCallName(() => ArrayLengthConversion.RenderValue(lengthParameter, $"{nativeVariableName}.Size"));
     }
 
     private static void SizeBasedArrayOut(ParameterToNativeData parameter, IEnumerable<ParameterToNativeData> allParameters)
@@ -174,11 +173,11 @@ internal class Utf8StringArray : ToNativeParameterConverter
         var lengthParameter = allParameters.ElementAt(lengthIndex);
 
         lengthParameter.IsArrayLengthParameter = true;
-        var lengthParameterType = Model.Type.GetName(lengthParameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT0);
+        var lengthParameterType = ArrayLengthConversion.GetNativeTypeName(lengthParameter);
         lengthParameter.SetExpression(() => parameter.Parameter.Nullable switch
         {
-            false => $"{lengthParameterType} counterNative = ({lengthParameterType}){signatureName}.Length;",
-            true => $"{lengthParameterType} counterNative = ({lengthParameterType}?){signatureName}?.Length ?? 0;"
+            false => $"{lengthParameterType} counterNative = {ArrayLengthConversion.RenderValue(lengthParameter, $"{signatureName}.Length")};",
+            true => $"{lengthParameterType} counterNative = {ArrayLengthConversion.RenderValue(lengthParameter, $"({signatureName}?.Length ?? 0)")};"
         });
         lengthParameter.SetCallName(() => "ref counterNative");
         lengthParameter.SetPostCallExpression(() => $"{nativeVariableName}.Size = counterNative;");

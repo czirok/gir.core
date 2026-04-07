@@ -47,17 +47,17 @@ internal class PrimitiveValueTypeArray : ToNativeParameterConverter
 
         var lengthIndex = parameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT1.Length ?? throw new Exception("Length missing");
         var lengthParameter = allParameters.ElementAt(lengthIndex);
-        var type = Model.Type.GetName(lengthParameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT0);
 
         switch (lengthParameter.Parameter.Direction)
         {
             case GirModel.Direction.In:
                 lengthParameter.IsArrayLengthParameter = true;
-                lengthParameter.SetCallName(() => $"({type}) {parameterName}.Length");
+                lengthParameter.SetCallName(() => ArrayLengthConversion.RenderValue(lengthParameter, $"{parameterName}.Length"));
                 break;
             case GirModel.Direction.InOut:
                 lengthParameter.IsInOutArrayLengthParameter = true;
-                lengthParameter.SetExpression(() => $"{Model.Parameter.GetName(lengthParameter.Parameter)} = ({type}) {parameterName}.Length;");
+                lengthParameter.SetExpression(() =>
+                    $"{Model.Parameter.GetName(lengthParameter.Parameter)} = {ArrayLengthConversion.RenderValue(lengthParameter, $"{parameterName}.Length")};");
                 break;
             default:
                 throw new Exception("Unknown direction for length parameter");

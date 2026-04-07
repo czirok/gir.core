@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>GirCore.Gcr-4</PackageId>
+    <RootNamespace>Gcr</RootNamespace>
+    <Description>C# bindings for libgcr.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GObject-2.0\GObject-2.0.csproj" />
+    <ProjectReference Include="..\Gio-2.0\Gio-2.0.csproj" />
+    <ProjectReference Include="..\Gck-2\Gck-2.csproj" />
+  </ItemGroup>
+</Project>

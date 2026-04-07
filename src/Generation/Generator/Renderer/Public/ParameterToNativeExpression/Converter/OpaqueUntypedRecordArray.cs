@@ -53,15 +53,14 @@ internal class OpaqueUntypedRecordArray : ToNativeParameterConverter
 
         var lengthIndex = parameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT1.Length ?? throw new Exception("Length missing");
         var lengthParameter = allParameters.ElementAt(lengthIndex);
-        var lengthParameterType = Model.Type.GetName(lengthParameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT0);
 
         switch (lengthParameter.Parameter.Direction)
         {
             case GirModel.Direction.In:
                 lengthParameter.IsArrayLengthParameter = true;
                 lengthParameter.SetCallName(() => parameter.Parameter.Nullable
-                    ? $"({lengthParameterType}) ({parameterName}?.Length ?? 0)"
-                    : $"({lengthParameterType}) {parameterName}.Length"
+                    ? ArrayLengthConversion.RenderValue(lengthParameter, $"({parameterName}?.Length ?? 0)")
+                    : ArrayLengthConversion.RenderValue(lengthParameter, $"{parameterName}.Length")
                 );
                 break;
             default:

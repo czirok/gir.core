@@ -9,6 +9,7 @@ public static class Classes
     {
         new PublicMethodsColldingWithPropertiesFixer(),
         new InternalMethodsNamedLikeClassFixer(),
+        new PropertyCollidingWithInheritedMembersFixer(),
         new PropertyNamedLikeClassFixer(),
         new PropertyLikeInterfacePropertyFixer(),
         new InterfaceMethodsCollidingWithInterfaceMethodsFixer(),

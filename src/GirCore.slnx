@@ -25,6 +25,8 @@
     <Project Path="Libs/Cogl-18/Cogl-18.csproj" />
     <Project Path="Libs/EGL-1.5/EGL-1.5.csproj" />
     <Project Path="Libs/freetype2-2.0/freetype2-2.0.csproj" />
+    <Project Path="Libs/Gck-2/Gck-2.csproj" />
+    <Project Path="Libs/Gcr-4/Gcr-4.csproj" />
     <Project Path="Libs/Gdk-4.0/Gdk-4.0.csproj" />
     <Project Path="Libs/GdkPixbuf-2.0/GdkPixbuf-2.0.csproj" />
     <Project Path="Libs/GdkWayland-4.0/GdkWayland-4.0.csproj" />
@@ -46,6 +48,7 @@
     <Project Path="Libs/HarfBuzz-0.0/HarfBuzz-0.0.csproj" />
     <Project Path="Libs/JavaScriptCore-6.0/JavaScriptCore-6.0.csproj" />
     <Project Path="Libs/Mtk-18/Mtk-18.csproj" />
+    <Project Path="Libs/P11Kit-0.26/P11Kit-0.26.csproj" />
     <Project Path="Libs/Pango-1.0/Pango-1.0.csproj" />
     <Project Path="Libs/PangoCairo-1.0/PangoCairo-1.0.csproj" />
     <Project Path="Libs/Rsvg-2.0/Rsvg-2.0.csproj" />

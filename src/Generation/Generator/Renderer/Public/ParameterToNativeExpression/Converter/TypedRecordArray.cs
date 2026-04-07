@@ -60,15 +60,14 @@ internal class TypedRecordArray : ToNativeParameterConverter
 
         var lengthIndex = parameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT1.Length ?? throw new Exception("Length missing");
         var lengthParameter = allParameters.ElementAt(lengthIndex);
-        var lengthParameterType = Model.Type.GetName(lengthParameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT0);
 
         switch (lengthParameter.Parameter.Direction)
         {
             case GirModel.Direction.In:
                 lengthParameter.IsArrayLengthParameter = true;
                 lengthParameter.SetCallName(() => parameter.Parameter.Nullable
-                    ? $"({lengthParameterType}) ({parameterName}?.Length ?? 0)"
-                    : $"({lengthParameterType}) {parameterName}.Length"
+                    ? ArrayLengthConversion.RenderValue(lengthParameter, $"({parameterName}?.Length ?? 0)")
+                    : ArrayLengthConversion.RenderValue(lengthParameter, $"{parameterName}.Length")
                 );
                 break;
             default:
@@ -81,7 +80,7 @@ internal class TypedRecordArray : ToNativeParameterConverter
         if (parameter.Parameter.Transfer == GirModel.Transfer.Container || parameter.Parameter.Transfer == GirModel.Transfer.Full)
             throw new Exception("Can't transfer ownership to native code for typed record");
 
-        var record = (GirModel.Record) parameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT1.AnyType.AsT0;
+        var record = (GirModel.Record)parameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT1.AnyType.AsT0;
         var parameterName = Model.Parameter.GetName(parameter.Parameter);
         var nativeVariableName = parameterName + "Native";
 
@@ -96,15 +95,14 @@ internal class TypedRecordArray : ToNativeParameterConverter
 
         var lengthIndex = parameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT1.Length ?? throw new Exception("Length missing");
         var lengthParameter = allParameters.ElementAt(lengthIndex);
-        var lengthParameterType = Model.Type.GetName(lengthParameter.Parameter.AnyTypeOrVarArgs.AsT0.AsT0);
 
         switch (lengthParameter.Parameter.Direction)
         {
             case GirModel.Direction.In:
                 lengthParameter.IsArrayLengthParameter = true;
                 lengthParameter.SetCallName(() => parameter.Parameter.Nullable
-                    ? $"({lengthParameterType}) ({parameterName}?.Length ?? 0)"
-                    : $"({lengthParameterType}) {parameterName}.Length"
+                    ? ArrayLengthConversion.RenderValue(lengthParameter, $"({parameterName}?.Length ?? 0)")
+                    : ArrayLengthConversion.RenderValue(lengthParameter, $"{parameterName}.Length")
                 );
                 break;
             default:
