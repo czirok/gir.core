@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>GirCore.Meta-18</PackageId>
+    <RootNamespace>Meta</RootNamespace>
+    <Description>C# bindings for libmutter.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Clutter-18\Clutter-18.csproj" />
+    <ProjectReference Include="..\Cogl-18\Cogl-18.csproj" />
+    <ProjectReference Include="..\GDesktopEnums-3.0\GDesktopEnums-3.0.csproj" />
+    <ProjectReference Include="..\GObject-2.0\GObject-2.0.csproj" />
+    <ProjectReference Include="..\Gio-2.0\Gio-2.0.csproj" />
+    <ProjectReference Include="..\Mtk-18\Mtk-18.csproj" />
+    <ProjectReference Include="..\xfixes-4.0\xfixes-4.0.csproj" />
+    <ProjectReference Include="..\xlib-2.0\xlib-2.0.csproj" />
+  </ItemGroup>
+</Project>

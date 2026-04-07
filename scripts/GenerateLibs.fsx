@@ -41,6 +41,7 @@ let girFiles =
         "Gvc-1.0.gir"
         "HarfBuzz-0.0.gir"
         "JavaScriptCore-6.0.gir"
+        "Meta-18.gir"
         "Mtk-18.gir"
         "P11Kit-0.26.gir"
         "Pango-1.0.gir"
