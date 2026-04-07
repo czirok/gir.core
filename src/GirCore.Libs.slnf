@@ -20,6 +20,7 @@
       "Libs\\GdkWayland-4.0\\GdkWayland-4.0.csproj",
       "Libs\\GdkPixbuf-2.0\\GdkPixbuf-2.0.csproj",
       "Libs\\Gio-2.0\\Gio-2.0.csproj",
+      "Libs\\GioUnix-2.0\\GioUnix-2.0.csproj",
       "Libs\\GLib-2.0\\GLib-2.0.csproj",
       "Libs\\GModule-2.0\\GModule-2.0.csproj",
       "Libs\\GObject-2.0\\GObject-2.0.csproj",

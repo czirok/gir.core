@@ -23,6 +23,7 @@ let girFiles =
         "GdkWayland-4.0.gir"
         "GdkWin32-4.0.gir"
         "Gio-2.0.gir"
+        "GioUnix-2.0.gir"
         "GLib-2.0.gir"
         "GModule-2.0.gir"
         "GObject-2.0.gir"
