@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.CodeAnalysis;
 using Sf = Microsoft.CodeAnalysis.CSharp.SyntaxFactory;
 using Sk = Microsoft.CodeAnalysis.CSharp.SyntaxKind;
@@ -6,6 +7,14 @@ using St = Microsoft.CodeAnalysis.SyntaxToken;
 
 internal static class EscapeString
 {
+    // Known numeric prefixes that have a well-established semantic name.
+    // If an identifier starts with one of these strings, the numeric prefix
+    // is replaced with the mapped value instead of the generic digit-word fallback.
+    private static readonly Dictionary<string, string> KnownNumericPrefixes = new()
+    {
+        { "80211", "IEEE80211" }
+    };
+
     public static string EscapeIdentifier(this string _text)
     {
         var escaped = FixFirstCharIfNumber(_text);
@@ -29,11 +38,17 @@ internal static class EscapeString
 
         if (char.IsNumber(firstChar))
         {
+            foreach (var (numericPrefix, semanticPrefix) in KnownNumericPrefixes)
+            {
+                if (identifier.StartsWith(numericPrefix, StringComparison.Ordinal))
+                    return semanticPrefix + identifier[numericPrefix.Length..];
+            }
+
             // Capitalise Second Char
             if (identifier.Length > 1)
                 identifier = CapitaliseSecondChar(identifier);
 
-            var number = (int) char.GetNumericValue(firstChar);
+            var number = (int)char.GetNumericValue(firstChar);
             return number switch
             {
                 0 => ReplaceFirstChar("Zero", identifier),

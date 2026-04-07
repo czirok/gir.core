@@ -39,6 +39,7 @@
       "Libs\\HarfBuzz-0.0\\HarfBuzz-0.0.csproj",
       "Libs\\Meta-18\\Meta-18.csproj",
       "Libs\\Mtk-18\\Mtk-18.csproj",
+      "Libs\\NM-1.0\\NM-1.0.csproj",
       "Libs\\P11Kit-0.26\\P11Kit-0.26.csproj",
       "Libs\\Pango-1.0\\Pango-1.0.csproj",
       "Libs\\PangoCairo-1.0\\PangoCairo-1.0.csproj",

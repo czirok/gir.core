@@ -53,6 +53,7 @@
     <Project Path="Libs/JavaScriptCore-6.0/JavaScriptCore-6.0.csproj" />
     <Project Path="Libs/Meta-18/Meta-18.csproj" />
     <Project Path="Libs/Mtk-18/Mtk-18.csproj" />
+    <Project Path="Libs/NM-1.0/NM-1.0.csproj" />
     <Project Path="Libs/P11Kit-0.26/P11Kit-0.26.csproj" />
     <Project Path="Libs/Pango-1.0/Pango-1.0.csproj" />
     <Project Path="Libs/PangoCairo-1.0/PangoCairo-1.0.csproj" />
