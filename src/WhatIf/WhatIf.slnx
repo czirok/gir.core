@@ -4,5 +4,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="GirCoreLauncher/GirCoreLauncher.csproj" />
   <Project Path="GirCoreMutter/GirCoreMutter.csproj" />
+  <Project Path="GirCoreSession/GirCoreSession.csproj" />
+  <Project Path="GirCoreShell/GirCoreShell.csproj" />
 </Solution>

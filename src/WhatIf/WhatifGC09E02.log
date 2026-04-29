@@ -1,0 +1,868 @@
+Apr 29 17:47:39 titan systemd[561]: Listening on PipeWire Multimedia System Sockets.
+Apr 29 17:47:39 titan systemd[561]: Listening on Query the User Interactively for a Password.
+Apr 29 17:47:39 titan systemd[561]: Listening on Disk Image Download Service Socket.
+Apr 29 17:47:39 titan systemd[561]: Listening on Journal Log Access Socket.
+Apr 29 17:47:39 titan systemd[561]: Listening on Virtual Machine and Container Registration Service Socket.
+Apr 29 17:47:39 titan systemd[561]: Listening on D-Bus User Message Bus Socket.
+Apr 29 17:47:39 titan systemd[561]: Reached target Sockets.
+Apr 29 17:47:39 titan systemd[561]: Reached target Basic System.
+Apr 29 17:47:39 titan systemd[561]: Reached target Main User Target.
+Apr 29 17:47:39 titan systemd[561]: Startup finished in 166ms.
+Apr 29 17:47:56 titan systemd[561]: Started GNOME Keyring daemon.
+Apr 29 17:47:56 titan gnome-keyring-daemon[1463]: GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+Apr 29 17:47:56 titan systemd[561]: Created slice User Core Session Slice.
+Apr 29 17:47:56 titan systemd[561]: Starting D-Bus User Message Bus...
+Apr 29 17:47:56 titan dbus-broker-launch[1468]: Policy to allow eavesdropping in /usr/share/dbus-1/session.conf +31: Eavesdropping is deprecated and ignored
+Apr 29 17:47:56 titan dbus-broker-launch[1468]: Policy to allow eavesdropping in /usr/share/dbus-1/session.conf +33: Eavesdropping is deprecated and ignored
+Apr 29 17:47:56 titan systemd[561]: Started D-Bus User Message Bus.
+Apr 29 17:47:56 titan dbus-broker-launch[1468]: Ready
+Apr 29 17:47:56 titan systemd[561]: Reached target Sound Card.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Startup[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Host built. runAs=leader
+Apr 29 17:47:58 titan gircore-session[1521]: Host built. runAs=leader
+Apr 29 17:47:58 titan gircore-session[1521]: Starting session bus connection.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.SessionBusConnection[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Starting session bus connection.
+Apr 29 17:47:58 titan gircore-session[1521]: Session bus connected.
+Apr 29 17:47:58 titan gircore-session[1521]: Starting system bus connection.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.SessionBusConnection[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Session bus connected.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.SystemBusConnection[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Starting system bus connection.
+Apr 29 17:47:58 titan gircore-session[1521]: System bus connected.
+Apr 29 17:47:58 titan gircore-session[1521]: Application started. Press Ctrl+C to shut down.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.SystemBusConnection[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       System bus connected.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: Microsoft.Hosting.Lifetime[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Application started. Press Ctrl+C to shut down.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: Microsoft.Hosting.Lifetime[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Hosting environment: Production
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: Microsoft.Hosting.Lifetime[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Content root path: /home/rhea
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Starting target: gnome-session@gnome.target
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       LeaderService ExecuteAsync entered. session=gnome
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Calling systemd ResetFailed.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.SystemdManagerService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       DBus call -> systemd1.ResetFailed
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.SystemdManagerService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Initializing org.freedesktop.systemd1.Manager proxy on session bus.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.PresenceIdleMonitorService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       PresenceIdleMonitorService started. pollInterval=5000ms
+Apr 29 17:47:58 titan gircore-session[1521]: Hosting environment: Production
+Apr 29 17:47:58 titan gircore-session[1521]: Content root path: /home/rhea
+Apr 29 17:47:58 titan gircore-session[1521]: Starting target: gnome-session@gnome.target
+Apr 29 17:47:58 titan gircore-session[1521]: LeaderService ExecuteAsync entered. session=gnome
+Apr 29 17:47:58 titan gircore-session[1521]: Calling systemd ResetFailed.
+Apr 29 17:47:58 titan gircore-session[1521]: DBus call -> systemd1.ResetFailed
+Apr 29 17:47:58 titan gircore-session[1521]: Initializing org.freedesktop.systemd1.Manager proxy on session bus.
+Apr 29 17:47:58 titan gircore-session[1521]: PresenceIdleMonitorService started. pollInterval=5000ms
+Apr 29 17:47:58 titan gircore-session[1521]: ResetFailed completed.
+Apr 29 17:47:58 titan gircore-session[1521]: Exporting environment to systemd.
+Apr 29 17:47:58 titan gircore-session[1521]: ExportEnvironmentToSystemdAsync called. candidates=19 exported=9 missing=10
+Apr 29 17:47:58 titan gircore-session[1521]: ExportEnvironmentToSystemdAsync exporting: DBUS_SESSION_BUS_ADDRESS, XDG_RUNTIME_DIR, XDG_SESSION_TYPE, XDG_SESSION_CLASS, XDG_CURRENT_DESKTOP, XDG_DESKTOP_SESSION(fallback), DESKTOP_SESSION, GDMSESSION, LANG
+Apr 29 17:47:58 titan gircore-session[1521]: ExportEnvironmentToSystemdAsync missing optional keys: DISPLAY, WAYLAND_DISPLAY, GNOME_SETUP_DISPLAY, XAUTHORITY, LC_ALL, GIO_USE_VFS, GSETTINGS_SCHEMA_DIR, GTK_THEME, XCURSOR_THEME, XCURSOR_SIZE
+Apr 29 17:47:58 titan gircore-session[1521]: DBus call -> systemd1.SetEnvironment(count=9)
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       ResetFailed completed.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Exporting environment to systemd.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       ExportEnvironmentToSystemdAsync called. candidates=19 exported=9 missing=10
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       ExportEnvironmentToSystemdAsync exporting: DBUS_SESSION_BUS_ADDRESS, XDG_RUNTIME_DIR, XDG_SESSION_TYPE, XDG_SESSION_CLASS, XDG_CURRENT_DESKTOP, XDG_DESKTOP_SESSION(fallback), DESKTOP_SESSION, GDMSESSION, LANG
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       ExportEnvironmentToSystemdAsync missing optional keys: DISPLAY, WAYLAND_DISPLAY, GNOME_SETUP_DISPLAY, XAUTHORITY, LC_ALL, GIO_USE_VFS, GSETTINGS_SCHEMA_DIR, GTK_THEME, XCURSOR_THEME, XCURSOR_SIZE
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.SystemdManagerService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       DBus call -> systemd1.SetEnvironment(count=9)
+Apr 29 17:47:58 titan gircore-session[1521]: ExportEnvironmentToSystemdAsync completed.
+Apr 29 17:47:58 titan gircore-session[1521]: Environment export completed.
+Apr 29 17:47:58 titan gircore-session[1521]: Creating SessionManager proxy. destination=org.gnome.SessionManager, path=/org/gnome/SessionManager
+Apr 29 17:47:58 titan gircore-session[1521]: Registering SessionRunning watcher.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       ExportEnvironmentToSystemdAsync completed.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Environment export completed.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Creating SessionManager proxy. destination=org.gnome.SessionManager, path=/org/gnome/SessionManager
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Registering SessionRunning watcher.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Registering SessionOver watcher.
+Apr 29 17:47:58 titan gircore-session[1521]: Registering SessionOver watcher.
+Apr 29 17:47:58 titan gircore-session[1521]: Starting session target via systemd: gnome-session@gnome.target
+Apr 29 17:47:58 titan gircore-session[1521]: DBus call -> systemd1.StartUnit(name=gnome-session@gnome.target, mode=fail)
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Starting session target via systemd: gnome-session@gnome.target
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.SystemdManagerService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       DBus call -> systemd1.StartUnit(name=gnome-session@gnome.target, mode=fail)
+Apr 29 17:47:58 titan gircore-session[1521]: StartUnit returned for target: gnome-session@gnome.target
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       StartUnit returned for target: gnome-session@gnome.target
+Apr 29 17:47:58 titan gircore-session[1521]: WaitForSessionManagerAsync started.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       WaitForSessionManagerAsync started.
+Apr 29 17:47:58 titan gircore-session[1521]: Registering NameOwnerChanged watcher for org.gnome.SessionManager.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Registering NameOwnerChanged watcher for org.gnome.SessionManager.
+Apr 29 17:47:58 titan systemd[561]: Created slice Slice /app/gnome-session-manager.
+Apr 29 17:47:58 titan gircore-session[1521]: Waiting on NameOwnerChanged task completion.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Waiting on NameOwnerChanged task completion.
+Apr 29 17:47:58 titan systemd[561]: Created slice User Background Tasks Slice.
+Apr 29 17:47:58 titan systemd[561]: Starting GCR ssh-agent wrapper...
+Apr 29 17:47:58 titan systemd[561]: Starting Monitor Session leader for GNOME Session...
+Apr 29 17:47:58 titan systemd[561]: Starting User folders update...
+Apr 29 17:47:58 titan systemd[561]: Started Monitor Session leader for GNOME Session.
+Apr 29 17:47:58 titan systemd[561]: Finished User folders update.
+Apr 29 17:47:58 titan systemd[561]: Reached target Session services which should run early before the graphical session is brought up.
+Apr 29 17:47:58 titan systemd[561]: Reached target Tasks to be run before GNOME Session starts.
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME Session Manager (session: gnome)...
+Apr 29 17:47:58 titan systemd[561]: Listening on GCR ssh-agent wrapper.
+Apr 29 17:47:58 titan gnome-session-service[1542]: App spice-vdagent.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services
+Apr 29 17:47:58 titan gnome-session-service[1542]: App at-spi-dbus-bus.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services
+Apr 29 17:47:58 titan gnome-session-service[1542]: App gnome-keyring-secrets.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services
+Apr 29 17:47:58 titan gnome-session-service[1542]: App gnome-keyring-pkcs11.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services
+Apr 29 17:47:58 titan gnome-session-service[1542]: App xdg-user-dirs.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services
+Apr 29 17:47:58 titan gircore-session[1521]: org.gnome.SessionManager owner appeared: :1.5
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       org.gnome.SessionManager owner appeared: :1.5
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       WaitForSessionManagerAsync completed via NameOwnerChanged.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Waiting for session to become running...
+Apr 29 17:47:58 titan gircore-session[1521]: WaitForSessionManagerAsync completed via NameOwnerChanged.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME Session Manager (session: gnome).
+Apr 29 17:47:58 titan gircore-session[1521]: Waiting for session to become running...
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME Session Manager is ready.
+Apr 29 17:47:58 titan systemd[561]: Starting GirCore Shell (overriding GNOME Shell)...
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Startup[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Host built. Starting GirCoreShell runtime.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Mutter ServiceChannel started. native_meta_wayland_client_bridge=True
+Apr 29 17:47:58 titan gircore-shell[1549]: Host built. Starting GirCoreShell runtime.
+Apr 29 17:47:58 titan gircore-shell[1549]: Mutter ServiceChannel started. native_meta_wayland_client_bridge=True
+Apr 29 17:47:58 titan gircore-shell[1549]: Starting session bus connection.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.SessionBusConnection[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Starting session bus connection.
+Apr 29 17:47:58 titan gircore-shell[1549]: Session bus connected.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.SessionBusConnection[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Session bus connected.
+Apr 29 17:47:58 titan gircore-shell[1549]: Acquired DBus name: org.gnome.Shell
+Apr 29 17:47:58 titan gircore-shell[1549]: Acquired DBus name: org.gnome.Shell.Brightness
+Apr 29 17:47:58 titan gircore-shell[1549]: Acquired DBus name: org.gnome.Mutter.DisplayConfig
+Apr 29 17:47:58 titan gircore-shell[1549]: Acquired DBus name: org.gnome.Mutter.ServiceChannel
+Apr 29 17:47:58 titan gircore-shell[1549]: Acquired DBus name: org.gnome.Shell.Introspect
+Apr 29 17:47:58 titan gircore-shell[1549]: Acquired DBus name: org.gnome.ScreenSaver
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellDbusHostService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Acquired DBus name: org.gnome.Shell
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellDbusHostService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Acquired DBus name: org.gnome.Shell.Brightness
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellDbusHostService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Acquired DBus name: org.gnome.Mutter.DisplayConfig
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellDbusHostService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Acquired DBus name: org.gnome.Mutter.ServiceChannel
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellDbusHostService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Acquired DBus name: org.gnome.Shell.Introspect
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellDbusHostService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Acquired DBus name: org.gnome.ScreenSaver
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Starting MetaContext runtime.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       MetaContext runtime thread started. managed_thread_id=10
+Apr 29 17:47:58 titan gircore-shell[1549]: Starting MetaContext runtime.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeScreenSaverServer[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       DBus call: ScreenSaver.GetActive => False
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       MetaContext created on runtime thread.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       MetaContext published to runtime state. managed_thread_id=10
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       MetaContext plugin GType configured.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Calling MetaContext.Configure on runtime thread. argc=1
+Apr 29 17:47:58 titan gircore-shell[1549]: MetaContext runtime thread started. managed_thread_id=10
+Apr 29 17:47:58 titan gircore-shell[1549]: DBus call: ScreenSaver.GetActive => False
+Apr 29 17:47:58 titan gircore-shell[1549]: MetaContext created on runtime thread.
+Apr 29 17:47:58 titan gircore-shell[1549]: MetaContext published to runtime state. managed_thread_id=10
+Apr 29 17:47:58 titan gircore-shell[1549]: MetaContext plugin GType configured.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       MetaContext.Configure completed.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Calling MetaContext.Setup on runtime thread.
+Apr 29 17:47:58 titan gircore-shell[1549]: Calling MetaContext.Configure on runtime thread. argc=1
+Apr 29 17:47:58 titan gircore-shell[1549]: MetaContext.Configure completed.
+Apr 29 17:47:58 titan gircore-shell[1549]: Calling MetaContext.Setup on runtime thread.
+Apr 29 17:47:58 titan shell:mode=user[1549]: Running GirCore Shell (using mutter 50.0) as a Wayland display server
+Apr 29 17:47:58 titan shell:mode=user[1549]: Thread 'KMS thread' will be using high priority scheduling
+Apr 29 17:47:58 titan shell:mode=user[1549]: Added device '/dev/dri/card1' (virtio_gpu) using non-atomic mode setting.
+Apr 29 17:47:58 titan shell:mode=user[1549]: Created gbm renderer for '/dev/dri/card1'
+Apr 29 17:47:58 titan shell:mode=user[1549]: Boot VGA GPU /dev/dri/card1 selected as primary
+Apr 29 17:47:58 titan systemd[561]: Starting Virtual filesystem service...
+Apr 29 17:47:58 titan systemd[561]: Started Virtual filesystem service.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       MetaContext.Setup completed.
+Apr 29 17:47:58 titan gircore-shell[1549]: MetaContext.Setup completed.
+Apr 29 17:47:58 titan gircore-shell[1549]: Calling MetaContext.Start on runtime thread.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Calling MetaContext.Start on runtime thread.
+Apr 29 17:47:58 titan shell:mode=user[1549]: Using public X11 display :0, (using unix:/tmp/.X11-unix/X1 for managed services)
+Apr 29 17:47:58 titan shell:mode=user[1549]: Using Wayland display name 'wayland-0'
+Apr 29 17:47:58 titan gircore-shell[1549]: GnomeShellPlugin instance created.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       GnomeShellPlugin instance created.
+Apr 29 17:47:58 titan gircore-shell[1549]: [Plugin.Start] Display snapshot source=Meta.Display monitors=1 size=1731x837.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [Plugin.Start] Display snapshot source=Meta.Display monitors=1 size=1731x837.
+Apr 29 17:47:58 titan gircore-shell[1549]: [Plugin.Start] Monitor snapshot index=0 connector=MONITOR-0 geometry=0,0 1731x837 scale=1.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [Plugin.Start] Monitor snapshot index=0 connector=MONITOR-0 geometry=0,0 1731x837 scale=1.
+Apr 29 17:47:58 titan gircore-shell[1549]: [Plugin.Start] Runtime display snapshot updated. serial=2 monitors=1.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [Plugin.Start] Runtime display snapshot updated. serial=2 monitors=1.
+Apr 29 17:47:58 titan gircore-shell[1549]: [Plugin.Start] Background actor inserted at stage index 0. size=1731x837
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [Plugin.Start] Background actor inserted at stage index 0. size=1731x837
+Apr 29 17:47:58 titan gircore-shell[1549]: [Plugin.Start] Requested stage background color: #68217a.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [Plugin.Start] Requested stage background color: #68217a.
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog] Desktop environment set to GNOME for GioUnix.DesktopAppInfo filtering.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog] Desktop environment set to GNOME for GioUnix.DesktopAppInfo filtering.
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Scan] Starting desktop file scan. directory_count=5
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Scan] Starting desktop file scan. directory_count=5
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Scan] Directory=/home/rhea/.local/share/applications desktop_files=0
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Scan] Directory=/home/rhea/.local/share/applications desktop_files=0
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Scan] Directory=/var/lib/flatpak/exports/share/applications desktop_files=3
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Scan] Directory=/var/lib/flatpak/exports/share/applications desktop_files=3
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Scan] Directory=/usr/share/applications desktop_files=79
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Scan] Directory=/usr/share/applications desktop_files=79
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Scan] Completed. visible_apps=25
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Scan] Completed. visible_apps=25
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.manjaro.pamac.manager.desktop name=Add/Remove Software file=/usr/share/applications/org.manjaro.pamac.manager.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.manjaro.pamac.manager.desktop name=Add/Remove Software file=/usr/share/applications/org.manjaro.pamac.manager.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=bssh.desktop name=Avahi SSH Server Browser file=/usr/share/applications/bssh.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=bssh.desktop name=Avahi SSH Server Browser file=/usr/share/applications/bssh.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=bvnc.desktop name=Avahi VNC Server Browser file=/usr/share/applications/bvnc.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=bvnc.desktop name=Avahi VNC Server Browser file=/usr/share/applications/bvnc.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=avahi-discover.desktop name=Avahi Zeroconf Browser file=/usr/share/applications/avahi-discover.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=avahi-discover.desktop name=Avahi Zeroconf Browser file=/usr/share/applications/avahi-discover.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=avaloniailspy.desktop name=AvaloniaILSpy file=/usr/share/applications/avaloniailspy.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=avaloniailspy.desktop name=AvaloniaILSpy file=/usr/share/applications/avaloniailspy.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=cmake-gui.desktop name=CMake file=/usr/share/applications/cmake-gui.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=cmake-gui.desktop name=CMake file=/usr/share/applications/cmake-gui.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=ca.desrt.dconf-editor.desktop name=dconf Editor file=/usr/share/applications/ca.desrt.dconf-editor.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=ca.desrt.dconf-editor.desktop name=dconf Editor file=/usr/share/applications/ca.desrt.dconf-editor.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.gnome.Extensions.desktop name=Extensions file=/usr/share/applications/org.gnome.Extensions.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.gnome.Extensions.desktop name=Extensions file=/usr/share/applications/org.gnome.Extensions.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=far2l-tty.desktop name=far2l (Terminal) file=/usr/share/applications/far2l-tty.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=far2l-tty.desktop name=far2l (Terminal) file=/usr/share/applications/far2l-tty.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=far2l.desktop name=far2l (WX GUI) file=/usr/share/applications/far2l.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=far2l.desktop name=far2l (WX GUI) file=/usr/share/applications/far2l.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=far2ledit-tty.desktop name=Far2l Editor (Terminal) file=/usr/share/applications/far2ledit-tty.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=far2ledit-tty.desktop name=Far2l Editor (Terminal) file=/usr/share/applications/far2ledit-tty.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=far2ledit.desktop name=Far2l Editor (WX GUI) file=/usr/share/applications/far2ledit.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=far2ledit.desktop name=Far2l Editor (WX GUI) file=/usr/share/applications/far2ledit.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.gnome.Nautilus.desktop name=Files file=/usr/share/applications/org.gnome.Nautilus.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.gnome.Nautilus.desktop name=Files file=/usr/share/applications/org.gnome.Nautilus.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.gnome.font-viewer.desktop name=Fonts file=/usr/share/applications/org.gnome.font-viewer.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.gnome.font-viewer.desktop name=Fonts file=/usr/share/applications/org.gnome.font-viewer.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=gparted.desktop name=GParted Partition Editor file=/usr/share/applications/gparted.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=gparted.desktop name=GParted Partition Editor file=/usr/share/applications/gparted.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=com.microsoft.Edge.desktop name=Microsoft Edge file=/var/lib/flatpak/exports/share/applications/com.microsoft.Edge.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=com.microsoft.Edge.desktop name=Microsoft Edge file=/var/lib/flatpak/exports/share/applications/com.microsoft.Edge.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.gnome.Ptyxis.desktop name=Ptyxis file=/usr/share/applications/org.gnome.Ptyxis.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.gnome.Ptyxis.desktop name=Ptyxis file=/usr/share/applications/org.gnome.Ptyxis.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=qv4l2.desktop name=Qt V4L2 test Utility file=/usr/share/applications/qv4l2.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=qv4l2.desktop name=Qt V4L2 test Utility file=/usr/share/applications/qv4l2.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=qvidcap.desktop name=Qt V4L2 video capture utility file=/usr/share/applications/qvidcap.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=qvidcap.desktop name=Qt V4L2 video capture utility file=/usr/share/applications/qvidcap.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=io.github.swordpuffin.rewaita.desktop name=Rewaita file=/var/lib/flatpak/exports/share/applications/io.github.swordpuffin.rewaita.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=io.github.swordpuffin.rewaita.desktop name=Rewaita file=/var/lib/flatpak/exports/share/applications/io.github.swordpuffin.rewaita.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.gnome.Settings.desktop name=Settings file=/usr/share/applications/org.gnome.Settings.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.gnome.Settings.desktop name=Settings file=/usr/share/applications/org.gnome.Settings.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.gnome.Software.desktop name=Software file=/usr/share/applications/org.gnome.Software.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.gnome.Software.desktop name=Software file=/usr/share/applications/org.gnome.Software.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.gnome.tweaks.desktop name=Tweaks file=/usr/share/applications/org.gnome.tweaks.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.gnome.Weather.desktop name=Weather file=/usr/share/applications/org.gnome.Weather.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [AppCatalog.Launch] Scanned app. id=org.gnome.Epiphany.desktop name=Web file=/var/lib/flatpak/exports/share/applications/org.gnome.Epiphany.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Building launcher buttons. visible_apps=25 max_buttons=14
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Launcher build complete. buttons=10
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Mini launcher inserted on stage.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [Plugin.Start] Mini shell launcher requested.
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.gnome.tweaks.desktop name=Tweaks file=/usr/share/applications/org.gnome.tweaks.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.gnome.Weather.desktop name=Weather file=/usr/share/applications/org.gnome.Weather.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [AppCatalog.Launch] Scanned app. id=org.gnome.Epiphany.desktop name=Web file=/var/lib/flatpak/exports/share/applications/org.gnome.Epiphany.desktop
+Apr 29 17:47:58 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Building launcher buttons. visible_apps=25 max_buttons=14
+Apr 29 17:47:58 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Launcher build complete. buttons=10
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellDbusHostService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Emitted PropertiesChanged: ShellReady=True
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       [Plugin.Start] Stage is visible.
+Apr 29 17:47:58 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Mini launcher inserted on stage.
+Apr 29 17:47:58 titan gircore-shell[1549]: [Plugin.Start] Mini shell launcher requested.
+Apr 29 17:47:58 titan gircore-shell[1549]: Emitted PropertiesChanged: ShellReady=True
+Apr 29 17:47:58 titan gircore-shell[1549]: [Plugin.Start] Stage is visible.
+Apr 29 17:47:58 titan shell:mode=user[1549]: Disabling hardware cursors because MUTTER_DEBUG_DISABLE_HW_CURSORS is set
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       MetaContext.Start completed.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       MetaContext.NotifyReady completed.
+Apr 29 17:47:58 titan gircore-shell[1549]: MetaContext.Start completed.
+Apr 29 17:47:58 titan gircore-shell[1549]: MetaContext.NotifyReady completed.
+Apr 29 17:47:58 titan systemd[561]: Started GirCore Shell (overriding GNOME Shell).
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME Session is initialized.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME basic session services.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME session services.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME Session (session: gnome).
+Apr 29 17:47:58 titan gircore-shell[1549]: Notified systemd: READY=1
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Notified systemd: READY=1
+Apr 29 17:47:58 titan gircore-shell[1549]: Entering MetaContext main loop on runtime thread. managed_thread_id=10
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.Services.ShellRuntimeService[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Entering MetaContext main loop on runtime thread. managed_thread_id=10
+Apr 29 17:47:58 titan gircore-shell[1549]: info: Microsoft.Hosting.Lifetime[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Application started. Press Ctrl+C to shut down.
+Apr 29 17:47:58 titan gircore-shell[1549]: Application started. Press Ctrl+C to shut down.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: Microsoft.Hosting.Lifetime[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Hosting environment: Production
+Apr 29 17:47:58 titan gircore-shell[1549]: Hosting environment: Production
+Apr 29 17:47:58 titan gircore-shell[1549]: info: Microsoft.Hosting.Lifetime[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       Content root path: /home/rhea
+Apr 29 17:47:58 titan gircore-shell[1549]: Content root path: /home/rhea
+Apr 29 17:47:58 titan systemd[561]: Starting Signal initialization done to GNOME Session Manager...
+Apr 29 17:47:58 titan systemd[561]: Starting IBus Daemon for GNOME...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME accessibility service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME color management service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME date & time service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME maintenance of expirable data service...
+Apr 29 17:47:58 titan gnome-session-service[1542]: Entering running state
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME keyboard configuration service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME keyboard shortcuts service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME power management service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME printer notifications service...
+Apr 29 17:47:58 titan gircore-session[1521]: SessionRunning signal received.
+Apr 29 17:47:58 titan gircore-session[1521]: Session is running.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       SessionRunning signal received.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Session is running.
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]: info: GirCoreSession.Services.LeaderService[0]
+Apr 29 17:47:58 titan /usr/lib/gdm-wayland-session[1521]:       Waiting for SessionOver or cancellation.
+Apr 29 17:47:58 titan gircore-session[1521]: Waiting for SessionOver or cancellation.
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME RFKill support service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME FreeDesktop screensaver service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME file sharing service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME smartcard service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME sound sample caching service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME USB protection service...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME WWan support service...
+Apr 29 17:47:58 titan systemd[561]: Finished Signal initialization done to GNOME Session Manager.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME maintenance of expirable data service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME maintenance of expirable data target.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME keyboard configuration service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME keyboard configuration target.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME keyboard shortcuts service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME keyboard shortcuts target.
+Apr 29 17:47:58 titan gsd-keyboard[1597]: g_variant_unref: assertion 'value != NULL' failed
+Apr 29 17:47:58 titan systemd[561]: Started PipeWire Multimedia Service.
+Apr 29 17:47:58 titan systemd[561]: Started Multimedia Service Session Manager.
+Apr 29 17:47:58 titan systemd[561]: Started PipeWire PulseAudio.
+Apr 29 17:47:58 titan systemd[561]: Started IBus Daemon for GNOME.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME FreeDesktop screensaver service.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME power management service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME power management target.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME FreeDesktop screensaver target.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME USB protection service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME USB protection target.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME accessibility service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME accessibility target.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME RFKill support service.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME file sharing service.
+Apr 29 17:47:58 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.freedesktop.portal.IBus.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME RFKill support target.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME file sharing target.
+Apr 29 17:47:58 titan systemd[561]: Started dbus-:1.2-org.freedesktop.portal.IBus@0.service.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME color management service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME color management target.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME WWan support service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME WWan support target.
+Apr 29 17:47:58 titan gircore-shell[1549]: DBus call: GrabAccelerators(61)
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellServer[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       DBus call: GrabAccelerators(61)
+Apr 29 17:47:58 titan gsd-a11y-settings[1586]: Failed to stop orca.service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit orca.service not loaded.
+Apr 29 17:47:58 titan gsd-a11y-settings[1586]: Failed to disable orca.service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit orca.service does not exist
+Apr 29 17:47:58 titan systemd[561]: Started GNOME smartcard service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME smartcard target.
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeScreenSaverServer[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       DBus call: ScreenSaver.GetActive => False
+Apr 29 17:47:58 titan gircore-shell[1549]: DBus call: ScreenSaver.GetActive => False
+Apr 29 17:47:58 titan systemd[561]: Started GNOME sound sample caching service.
+Apr 29 17:47:58 titan systemd[561]: Started GNOME printer notifications service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME printer notifications target.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME sound sample caching target.
+Apr 29 17:47:58 titan gircore-shell[1549]: DBus property set: PowerSaveMode=0
+Apr 29 17:47:58 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:58 titan gircore-shell[1549]:       DBus property set: PowerSaveMode=0
+Apr 29 17:47:58 titan gsd-usb-protection[1612]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Apr 29 17:47:58 titan systemd[561]: Started GNOME date & time service.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME date & time target.
+Apr 29 17:47:58 titan systemd[561]: Reached target GNOME Session.
+Apr 29 17:47:58 titan systemd[561]: Reached target Current graphical user session.
+Apr 29 17:47:58 titan systemd[561]: Starting Event and Task Reminders...
+Apr 29 17:47:58 titan systemd[561]: Starting GNOME Software...
+Apr 29 17:47:58 titan systemd[561]: Starting LocalSearch indexer...
+Apr 29 17:47:58 titan systemd[561]: Started Spice guest session agent.
+Apr 29 17:47:58 titan systemd[561]: Started User folders update.
+Apr 29 17:47:58 titan gsd-sharing[1606]: Failed to stop gnome-user-share-webdav.service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 29 17:47:58 titan gsd-sharing[1606]: Failed to stop rygel.service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 29 17:47:58 titan shell:mode=user[1549]: Failed to create color profile from colord profile: Error opening file /run/gdm/home/gdm-greeter/.local/share/icc/edid-489051d149232a69732af0c996537ea6.icc: Permission denied
+Apr 29 17:47:58 titan spice-vdagent[1738]: vdagent started
+Apr 29 17:47:58 titan systemd[561]: Started LocalSearch indexer.
+Apr 29 17:47:58 titan systemd[561]: Starting Accessibility services bus...
+Apr 29 17:47:58 titan systemd[561]: Started GNOME Software.
+Apr 29 17:47:58 titan systemd[561]: Starting Portal service...
+Apr 29 17:47:58 titan systemd[561]: Started Accessibility services bus.
+Apr 29 17:47:58 titan wireplumber[1665]: spa.bluez5: BlueZ system service is not available
+Apr 29 17:47:58 titan systemd[561]: Starting sandboxed app permission store...
+Apr 29 17:47:58 titan dbus-broker-launch[1797]: Ready
+Apr 29 17:47:58 titan wireplumber[1665]: wp-device: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+Apr 29 17:47:58 titan wireplumber[1665]: s-monitors-libcamera: PipeWire's libcamera SPA plugin is missing or broken. Some camera types may not be supported.
+Apr 29 17:47:59 titan gsd-media-keys[1598]: Unable to get default sink
+Apr 29 17:47:59 titan systemd[561]: Started sandboxed app permission store.
+Apr 29 17:47:59 titan systemd[561]: Starting Virtual filesystem service - disk device monitor...
+Apr 29 17:47:59 titan systemd[561]: Starting flatpak document portal service...
+Apr 29 17:47:59 titan systemd[561]: Started flatpak document portal service.
+Apr 29 17:47:59 titan systemd[561]: Created slice Slice /app/dbus-:1.43-org.a11y.atspi.Registry.
+Apr 29 17:47:59 titan systemd[561]: Started dbus-:1.43-org.a11y.atspi.Registry@0.service.
+Apr 29 17:47:59 titan systemd[561]: Starting Portal service (GNOME implementation)...
+Apr 29 17:47:59 titan gircore-shell[1825]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 29 17:47:59 titan gircore-shell[1825]: > Warning:          Multiple symbols for level 1/group 1 on key <FK23>
+Apr 29 17:47:59 titan gircore-shell[1825]: >                   Using F23, ignoring XF86TouchpadOff
+Apr 29 17:47:59 titan gircore-shell[1825]: > Warning:          Symbol map for key <FK23> redefined
+Apr 29 17:47:59 titan gircore-shell[1825]: >                   Using last definition for conflicting fields
+Apr 29 17:47:59 titan gircore-shell[1825]: > Warning:          Symbol map for key <FK24> redefined
+Apr 29 17:47:59 titan gircore-shell[1825]: >                   Using last definition for conflicting fields
+Apr 29 17:47:59 titan at-spi2-registryd[1823]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Apr 29 17:47:59 titan gircore-shell[1825]: Errors from xkbcomp are not fatal to the X server
+Apr 29 17:47:59 titan systemd[561]: Starting Evolution source registry...
+Apr 29 17:47:59 titan gircore-shell[1842]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 29 17:47:59 titan gircore-shell[1842]: > Warning:          Unsupported maximum keycode 709, clipping.
+Apr 29 17:47:59 titan gircore-shell[1842]: >                   X11 cannot support keycodes above 255.
+Apr 29 17:47:59 titan gircore-shell[1842]: > Warning:          Virtual modifier Hyper multiply defined
+Apr 29 17:47:59 titan gircore-shell[1842]: >                   Using 0, ignoring 0
+Apr 29 17:47:59 titan gircore-shell[1842]: > Warning:          Virtual modifier ScrollLock multiply defined
+Apr 29 17:47:59 titan gircore-shell[1842]: >                   Using 0, ignoring 0
+Apr 29 17:47:59 titan gircore-shell[1842]: Errors from xkbcomp are not fatal to the X server
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus call: OpenWaylandServiceConnection(service_client_type=1, sender=:1.51).
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus call: OpenWaylandServiceConnection(service_client_type=1, sender=:1.51).
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       Resolved ServiceChannel caller pid. sender=:1.51 pid=1824
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       Scheduling Mutter Wayland client creation on GLib main context. purpose=service-client:1 pid=1824 current_thread=4 meta_thread=10
+Apr 29 17:47:59 titan gircore-shell[1549]: Resolved ServiceChannel caller pid. sender=:1.51 pid=1824
+Apr 29 17:47:59 titan gircore-shell[1549]: Scheduling Mutter Wayland client creation on GLib main context. purpose=service-client:1 pid=1824 current_thread=4 meta_thread=10
+Apr 29 17:47:59 titan gircore-shell[1549]: Creating Mutter Wayland client on GLib main context. purpose=service-client:1 pid=1824 current_thread=10
+Apr 29 17:47:59 titan gircore-shell[1549]: Mutter Wayland client created on GLib main context. purpose=service-client:1 pid=1824 fd=61
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       Creating Mutter Wayland client on GLib main context. purpose=service-client:1 pid=1824 current_thread=10
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       Mutter Wayland client created on GLib main context. purpose=service-client:1 pid=1824 fd=61
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus reply: native ServiceChannel Wayland fd sent. purpose=service-client:1 pid=1824 fd=61
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus reply: native ServiceChannel Wayland fd sent. purpose=service-client:1 pid=1824 fd=61
+Apr 29 17:47:59 titan systemd[561]: Started Virtual filesystem service - disk device monitor.
+Apr 29 17:47:59 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.OnlineAccounts.
+Apr 29 17:47:59 titan systemd[561]: Started dbus-:1.2-org.gnome.OnlineAccounts@0.service.
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:47:59 titan gircore-shell[1549]: GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:47:59 titan spice-vdagent[1738]: No SPICE display found for connector MONITOR-0
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent_mutter_get_resolutions: No Spice display ID matching - assuming display ID == Monitor index
+Apr 29 17:47:59 titan systemd[561]: Started Evolution source registry.
+Apr 29 17:47:59 titan spice-vdagent[1738]: Received Graphics Device Info:
+Apr 29 17:47:59 titan spice-vdagent[1738]: card0 not found while listing DRM devices.
+Apr 29 17:47:59 titan spice-vdagent[1738]: Unable to open file (null)
+Apr 29 17:47:59 titan spice-vdagent[1738]: card0 not found while listing DRM devices.
+Apr 29 17:47:59 titan spice-vdagent[1738]: Unable to open file (null)
+Apr 29 17:47:59 titan spice-vdagent[1738]: channel_id: 0 monitor_id: 0 device_address: pci/0000/01.0, device_display_id: 0 xrandr output ID NOT FOUND
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:47:59 titan gircore-shell[1549]: GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:47:59 titan spice-vdagent[1738]: No SPICE display found for connector MONITOR-0
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent_mutter_get_resolutions: No Spice display ID matching - assuming display ID == Monitor index
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:47:59 titan spice-vdagent[1738]: Received Graphics Device Info:
+Apr 29 17:47:59 titan spice-vdagent[1738]: card0 not found while listing DRM devices.
+Apr 29 17:47:59 titan spice-vdagent[1738]: Unable to open file (null)
+Apr 29 17:47:59 titan spice-vdagent[1738]: card0 not found while listing DRM devices.
+Apr 29 17:47:59 titan spice-vdagent[1738]: Unable to open file (null)
+Apr 29 17:47:59 titan spice-vdagent[1738]: channel_id: 0 monitor_id: 0 device_address: pci/0000/01.0, device_display_id: 0 xrandr output ID NOT FOUND
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:47:59 titan gircore-shell[1549]: GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:47:59 titan spice-vdagent[1738]: No SPICE display found for connector MONITOR-0
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent_mutter_get_resolutions: No Spice display ID matching - assuming display ID == Monitor index
+Apr 29 17:47:59 titan spice-vdagent[1738]: Received Graphics Device Info:
+Apr 29 17:47:59 titan spice-vdagent[1738]: card0 not found while listing DRM devices.
+Apr 29 17:47:59 titan spice-vdagent[1738]: Unable to open file (null)
+Apr 29 17:47:59 titan spice-vdagent[1738]: card0 not found while listing DRM devices.
+Apr 29 17:47:59 titan spice-vdagent[1738]: Unable to open file (null)
+Apr 29 17:47:59 titan spice-vdagent[1738]: channel_id: 0 monitor_id: 0 device_address: pci/0000/01.0, device_display_id: 0 xrandr output ID NOT FOUND
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:47:59 titan gircore-shell[1549]: GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:47:59 titan gircore-shell[1549]: GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:47:59 titan spice-vdagent[1738]: No SPICE display found for connector MONITOR-0
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent_mutter_get_resolutions: No Spice display ID matching - assuming display ID == Monitor index
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent_audio_playback_sync mute=no nchannels=2
+Apr 29 17:47:59 titan systemd[561]: Started Event and Task Reminders.
+Apr 29 17:47:59 titan systemd[561]: Starting Evolution calendar service...
+Apr 29 17:47:59 titan goa-daemon[1864]: goa-daemon version 3.58.1 starting
+Apr 29 17:47:59 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.Identity.
+Apr 29 17:47:59 titan systemd[561]: Started dbus-:1.2-org.gnome.Identity@0.service.
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent-audio: (playback-left) 65535 (100.00%)
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent-audio: (playback-right) 65535 (100.00%)
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent_audio_record_sync mute=no nchannels=2
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent-audio: (capture-left) 65535 (100.00%)
+Apr 29 17:47:59 titan spice-vdagent[1738]: vdagent-audio: (capture-right) 65535 (100.00%)
+Apr 29 17:47:59 titan systemd[561]: Started Evolution calendar service.
+Apr 29 17:47:59 titan systemd[561]: Starting Evolution address book service...
+Apr 29 17:47:59 titan gircore-shell[1549]: libinput error: event5  - spice vdagent tablet: client bug: event processing lagging behind by 29ms, your system is too slow
+Apr 29 17:47:59 titan systemd[561]: Started Evolution address book service.
+Apr 29 17:47:59 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.Settings.GlobalShortcutsProvider.
+Apr 29 17:47:59 titan systemd[561]: Started dbus-:1.2-org.gnome.Settings.GlobalShortcutsProvider@0.service.
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus call: OpenWaylandServiceConnection(service_client_type=3, sender=:1.61).
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus call: OpenWaylandServiceConnection(service_client_type=3, sender=:1.61).
+Apr 29 17:47:59 titan gircore-shell[1549]: Resolved ServiceChannel caller pid. sender=:1.61 pid=1916
+Apr 29 17:47:59 titan gircore-shell[1549]: Scheduling Mutter Wayland client creation on GLib main context. purpose=service-client:3 pid=1916 current_thread=4 meta_thread=10
+Apr 29 17:47:59 titan gircore-shell[1549]: Creating Mutter Wayland client on GLib main context. purpose=service-client:3 pid=1916 current_thread=10
+Apr 29 17:47:59 titan gircore-shell[1549]: Mutter Wayland client created on GLib main context. purpose=service-client:3 pid=1916 fd=68
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       Resolved ServiceChannel caller pid. sender=:1.61 pid=1916
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       Scheduling Mutter Wayland client creation on GLib main context. purpose=service-client:3 pid=1916 current_thread=4 meta_thread=10
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       Creating Mutter Wayland client on GLib main context. purpose=service-client:3 pid=1916 current_thread=10
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       Mutter Wayland client created on GLib main context. purpose=service-client:3 pid=1916 fd=68
+Apr 29 17:47:59 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:47:59 titan gircore-shell[1549]:       DBus reply: native ServiceChannel Wayland fd sent. purpose=service-client:3 pid=1916 fd=68
+Apr 29 17:47:59 titan gircore-shell[1549]: DBus reply: native ServiceChannel Wayland fd sent. purpose=service-client:3 pid=1916 fd=68
+Apr 29 17:48:00 titan systemd[561]: Started Portal service (GNOME implementation).
+Apr 29 17:48:00 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:48:00 titan gircore-shell[1549]:       DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:48:00 titan gircore-shell[1549]: DBus call: GetCurrentState. serial=2 monitors=1
+Apr 29 17:48:00 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:48:00 titan gircore-shell[1549]:       GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:48:00 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:48:00 titan gircore-shell[1549]:       GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:48:00 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterDisplayConfigServer[0]
+Apr 29 17:48:00 titan gircore-shell[1549]:       DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:48:00 titan gircore-shell[1549]: GetCurrentState monitor: connector=MONITOR-0 vendor=mutter product=display serial=0 geometry=0,0 1731x837 scale=1 refresh=60 mode=1731x837@60
+Apr 29 17:48:00 titan gircore-shell[1549]: GetCurrentState logical monitor: connector=MONITOR-0 x=0 y=0 scale=1 primary=True
+Apr 29 17:48:00 titan gircore-shell[1549]: DBus reply: GetCurrentState completed. serial=2 monitors=1 logical_monitors=1
+Apr 29 17:48:00 titan systemd[561]: Starting Portal service (GTK/GNOME implementation)...
+Apr 29 17:48:00 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeScreenSaverServer[0]
+Apr 29 17:48:00 titan gircore-shell[1549]:       DBus call: ScreenSaver.GetActive => False
+Apr 29 17:48:00 titan gircore-shell[1549]: DBus call: ScreenSaver.GetActive => False
+Apr 29 17:48:00 titan systemd[561]: Started Portal service (GTK/GNOME implementation).
+Apr 29 17:48:00 titan systemd[561]: Started Portal service.
+Apr 29 17:48:00 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.Epiphany.WebAppProvider.
+Apr 29 17:48:00 titan systemd[561]: Started dbus-:1.2-org.gnome.Epiphany.WebAppProvider@0.service.
+Apr 29 17:48:00 titan systemd[561]: Starting flatpak session helper...
+Apr 29 17:48:00 titan systemd[561]: Started flatpak session helper.
+Apr 29 17:48:00 titan systemd[561]: Started app-flatpak-org.gnome.Epiphany-3464152104.scope.
+Apr 29 17:48:02 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Ptyxis.desktop button=1
+Apr 29 17:48:02 titan gircore-shell[1549]: [AppCatalog.Launch] Launch requested. id=org.gnome.Ptyxis.desktop name=Ptyxis file=/usr/share/applications/org.gnome.Ptyxis.desktop
+Apr 29 17:48:02 titan gircore-shell[1549]: [AppCatalog.Launch] Launch result id=org.gnome.Ptyxis.desktop launched=True.
+Apr 29 17:48:02 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:48:02 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Ptyxis.desktop button=1
+Apr 29 17:48:02 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:02 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch requested. id=org.gnome.Ptyxis.desktop name=Ptyxis file=/usr/share/applications/org.gnome.Ptyxis.desktop
+Apr 29 17:48:02 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:02 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch result id=org.gnome.Ptyxis.desktop launched=True.
+Apr 29 17:48:02 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.Ptyxis.
+Apr 29 17:48:02 titan systemd[561]: Started dbus-:1.2-org.gnome.Ptyxis@0.service.
+Apr 29 17:48:03 titan gircore-shell[1549]: Emitted Introspect.WindowsChanged.
+Apr 29 17:48:03 titan gircore-shell[1549]: Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:03 titan gircore-shell[1549]: [Plugin.Map] Window introspection snapshot updated. id=1990407217 app_id=org.gnome.Ptyxis title=rhea@titan:~ size=1731x837 focus=False
+Apr 29 17:48:03 titan gircore-shell[1549]: DBus call: Introspect.GetRunningApplications => 1 apps.
+Apr 29 17:48:03 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:03 titan gircore-shell[1549]:       Emitted Introspect.WindowsChanged.
+Apr 29 17:48:03 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:03 titan gircore-shell[1549]:       Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:03 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:48:03 titan gircore-shell[1549]:       [Plugin.Map] Window introspection snapshot updated. id=1990407217 app_id=org.gnome.Ptyxis title=rhea@titan:~ size=1731x837 focus=False
+Apr 29 17:48:03 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:03 titan gircore-shell[1549]:       DBus call: Introspect.GetRunningApplications => 1 apps.
+Apr 29 17:48:03 titan systemd[561]: Started [systemd-run] /usr/bin/bash.
+Apr 29 17:48:03 titan systemd[561]: Starting Virtual filesystem metadata service...
+Apr 29 17:48:03 titan systemd[561]: Started Virtual filesystem metadata service.
+Apr 29 17:48:06 titan gnome-software[1735]: updates-shell: failed to get upgrades: no plugin could handle listing distro upgrades
+Apr 29 17:48:15 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Settings.desktop button=1
+Apr 29 17:48:15 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:48:15 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Settings.desktop button=1
+Apr 29 17:48:15 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:15 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch requested. id=org.gnome.Settings.desktop name=Settings file=/usr/share/applications/org.gnome.Settings.desktop
+Apr 29 17:48:15 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:15 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch result id=org.gnome.Settings.desktop launched=True.
+Apr 29 17:48:15 titan gircore-shell[1549]: [AppCatalog.Launch] Launch requested. id=org.gnome.Settings.desktop name=Settings file=/usr/share/applications/org.gnome.Settings.desktop
+Apr 29 17:48:15 titan gircore-shell[1549]: [AppCatalog.Launch] Launch result id=org.gnome.Settings.desktop launched=True.
+Apr 29 17:48:15 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.Settings.
+Apr 29 17:48:15 titan systemd[561]: Started dbus-:1.2-org.gnome.Settings@0.service.
+Apr 29 17:48:16 titan gnome-control-center[2043]: The resource style-dark.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+Apr 29 17:48:16 titan gnome-control-center[2043]: The resource style-hc.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+Apr 29 17:48:16 titan gircore-shell[1549]: Emitted Introspect.WindowsChanged.
+Apr 29 17:48:16 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:16 titan gircore-shell[1549]:       Emitted Introspect.WindowsChanged.
+Apr 29 17:48:16 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:16 titan gircore-shell[1549]:       Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:16 titan gircore-shell[1549]: Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:16 titan gircore-shell[1549]: [Plugin.Map] Window introspection snapshot updated. id=1990407218 app_id=org.gnome.Settings title=Settings size=980x602 focus=False
+Apr 29 17:48:16 titan systemd[561]: Starting User preferences database...
+Apr 29 17:48:16 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:48:16 titan gircore-shell[1549]:       [Plugin.Map] Window introspection snapshot updated. id=1990407218 app_id=org.gnome.Settings title=Settings size=980x602 focus=False
+Apr 29 17:48:16 titan gircore-shell[1549]: DBus call: Introspect.GetRunningApplications => 2 apps.
+Apr 29 17:48:16 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:16 titan gircore-shell[1549]:       DBus call: Introspect.GetRunningApplications => 2 apps.
+Apr 29 17:48:16 titan systemd[561]: Started User preferences database.
+Apr 29 17:48:25 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.font-viewer.desktop button=1
+Apr 29 17:48:25 titan gircore-shell[1549]: [AppCatalog.Launch] Launch requested. id=org.gnome.font-viewer.desktop name=Fonts file=/usr/share/applications/org.gnome.font-viewer.desktop
+Apr 29 17:48:25 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:48:25 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.font-viewer.desktop button=1
+Apr 29 17:48:25 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:25 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch requested. id=org.gnome.font-viewer.desktop name=Fonts file=/usr/share/applications/org.gnome.font-viewer.desktop
+Apr 29 17:48:25 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:25 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch result id=org.gnome.font-viewer.desktop launched=True.
+Apr 29 17:48:25 titan gircore-shell[1549]: [AppCatalog.Launch] Launch result id=org.gnome.font-viewer.desktop launched=True.
+Apr 29 17:48:25 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.font\x2dviewer.
+Apr 29 17:48:25 titan systemd[561]: Started dbus-:1.2-org.gnome.font\x2dviewer@0.service.
+Apr 29 17:48:26 titan gircore-shell[1549]: Emitted Introspect.WindowsChanged.
+Apr 29 17:48:26 titan gircore-shell[1549]: Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:26 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:26 titan gircore-shell[1549]:       Emitted Introspect.WindowsChanged.
+Apr 29 17:48:26 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:26 titan gircore-shell[1549]:       Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:26 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:48:26 titan gircore-shell[1549]:       [Plugin.Map] Window introspection snapshot updated. id=1990407219 app_id=org.gnome.font-viewer title=Fonts size=800x600 focus=False
+Apr 29 17:48:26 titan gircore-shell[1549]: [Plugin.Map] Window introspection snapshot updated. id=1990407219 app_id=org.gnome.font-viewer title=Fonts size=800x600 focus=False
+Apr 29 17:48:26 titan gircore-shell[1549]: DBus call: Introspect.GetRunningApplications => 3 apps.
+Apr 29 17:48:26 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:26 titan gircore-shell[1549]:       DBus call: Introspect.GetRunningApplications => 3 apps.
+Apr 29 17:48:29 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Nautilus.desktop button=1
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Nautilus.desktop button=1
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch requested. id=org.gnome.Nautilus.desktop name=Files file=/usr/share/applications/org.gnome.Nautilus.desktop
+Apr 29 17:48:29 titan gircore-shell[1549]: [AppCatalog.Launch] Launch requested. id=org.gnome.Nautilus.desktop name=Files file=/usr/share/applications/org.gnome.Nautilus.desktop
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch result id=org.gnome.Nautilus.desktop launched=True.
+Apr 29 17:48:29 titan gircore-shell[1549]: [AppCatalog.Launch] Launch result id=org.gnome.Nautilus.desktop launched=True.
+Apr 29 17:48:29 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.Nautilus.
+Apr 29 17:48:29 titan systemd[561]: Started dbus-:1.2-org.gnome.Nautilus@0.service.
+Apr 29 17:48:29 titan org.gnome.Nautilus[2103]: Connecting to org.freedesktop.Tracker3.Miner.Files
+Apr 29 17:48:29 titan gircore-shell[1549]: DBus call: OpenWaylandServiceConnection(service_client_type=2, sender=:1.80).
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       DBus call: OpenWaylandServiceConnection(service_client_type=2, sender=:1.80).
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       Resolved ServiceChannel caller pid. sender=:1.80 pid=2103
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       Scheduling Mutter Wayland client creation on GLib main context. purpose=service-client:2 pid=2103 current_thread=4 meta_thread=10
+Apr 29 17:48:29 titan gircore-shell[1549]: Resolved ServiceChannel caller pid. sender=:1.80 pid=2103
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       Creating Mutter Wayland client on GLib main context. purpose=service-client:2 pid=2103 current_thread=10
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       Mutter Wayland client created on GLib main context. purpose=service-client:2 pid=2103 fd=83
+Apr 29 17:48:29 titan gircore-shell[1549]: Scheduling Mutter Wayland client creation on GLib main context. purpose=service-client:2 pid=2103 current_thread=4 meta_thread=10
+Apr 29 17:48:29 titan gircore-shell[1549]: Creating Mutter Wayland client on GLib main context. purpose=service-client:2 pid=2103 current_thread=10
+Apr 29 17:48:29 titan gircore-shell[1549]: Mutter Wayland client created on GLib main context. purpose=service-client:2 pid=2103 fd=83
+Apr 29 17:48:29 titan gircore-shell[1549]: DBus reply: native ServiceChannel Wayland fd sent. purpose=service-client:2 pid=2103 fd=83
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeMutterServiceChannelServer[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       DBus reply: native ServiceChannel Wayland fd sent. purpose=service-client:2 pid=2103 fd=83
+Apr 29 17:48:29 titan gircore-shell[1549]: Emitted Introspect.WindowsChanged.
+Apr 29 17:48:29 titan gircore-shell[1549]: Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       Emitted Introspect.WindowsChanged.
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       [Plugin.Map] Window introspection snapshot updated. id=1990407220 app_id=org.gnome.Nautilus title=Home size=890x550 focus=False
+Apr 29 17:48:29 titan gircore-shell[1549]: [Plugin.Map] Window introspection snapshot updated. id=1990407220 app_id=org.gnome.Nautilus title=Home size=890x550 focus=False
+Apr 29 17:48:29 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:29 titan gircore-shell[1549]:       DBus call: Introspect.GetRunningApplications => 4 apps.
+Apr 29 17:48:29 titan gircore-shell[1549]: DBus call: Introspect.GetRunningApplications => 4 apps.
+Apr 29 17:48:32 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Extensions.desktop button=1
+Apr 29 17:48:32 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:48:32 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Extensions.desktop button=1
+Apr 29 17:48:32 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:32 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch requested. id=org.gnome.Extensions.desktop name=Extensions file=/usr/share/applications/org.gnome.Extensions.desktop
+Apr 29 17:48:32 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:32 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch result id=org.gnome.Extensions.desktop launched=True.
+Apr 29 17:48:32 titan gircore-shell[1549]: [AppCatalog.Launch] Launch requested. id=org.gnome.Extensions.desktop name=Extensions file=/usr/share/applications/org.gnome.Extensions.desktop
+Apr 29 17:48:32 titan gircore-shell[1549]: [AppCatalog.Launch] Launch result id=org.gnome.Extensions.desktop launched=True.
+Apr 29 17:48:32 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.Extensions.
+Apr 29 17:48:32 titan systemd[561]: Started dbus-:1.2-org.gnome.Extensions@0.service.
+Apr 29 17:48:33 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.gnome.Shell.Extensions.
+Apr 29 17:48:33 titan systemd[561]: Started dbus-:1.2-org.gnome.Shell.Extensions@0.service.
+Apr 29 17:48:33 titan gircore-shell[1549]: Emitted Introspect.WindowsChanged.
+Apr 29 17:48:33 titan gircore-shell[1549]: Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:33 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:33 titan gircore-shell[1549]:       Emitted Introspect.WindowsChanged.
+Apr 29 17:48:33 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:33 titan gircore-shell[1549]:       Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:33 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:48:33 titan gircore-shell[1549]:       [Plugin.Map] Window introspection snapshot updated. id=1990407221 app_id=org.gnome.Extensions title=Extensions size=800x500 focus=False
+Apr 29 17:48:33 titan gircore-shell[1549]: [Plugin.Map] Window introspection snapshot updated. id=1990407221 app_id=org.gnome.Extensions title=Extensions size=800x500 focus=False
+Apr 29 17:48:33 titan gircore-shell[1549]: DBus call: Introspect.GetRunningApplications => 5 apps.
+Apr 29 17:48:33 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:33 titan gircore-shell[1549]:       DBus call: Introspect.GetRunningApplications => 5 apps.
+Apr 29 17:48:33 titan org.gnome.Shell.Extensions[2193]: JS ERROR: Error: Argument string may not be null
+                                                        _packVariant@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:82:29
+                                                        _init/this.Variant._new_internal@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:298:35
+                                                        _handlePropertyGet@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:429:16
+                                                        _wrapJSObject/<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:451:35
+                                                        _init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:264:34
+Apr 29 17:48:33 titan org.gnome.Shell.Extensions[2193]: JS ERROR: Error: Argument string may not be null
+                                                        _packVariant@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:82:29
+                                                        _init/this.Variant._new_internal@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:298:35
+                                                        _handlePropertyGet@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:429:16
+                                                        _wrapJSObject/<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:451:35
+                                                        _init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:264:34
+Apr 29 17:48:33 titan gjs[2180]: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "CheckForUpdates" with signature "" on interface "org.gnome.Shell.Extensions" doesn't exist
+                                 asyncCallback@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:115:23
+                                 _init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:264:34
+                                   
+Apr 29 17:48:33 titan gjs[2180]: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "ListExtensions" with signature "" on interface "org.gnome.Shell.Extensions" doesn't exist
+                                 asyncCallback@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:115:23
+                                 _init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:264:34
+                                   
+Apr 29 17:48:35 titan gircore-shell[1549]: Emitted Introspect.WindowsChanged.
+Apr 29 17:48:35 titan gircore-shell[1549]: Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:35 titan gircore-shell[1549]: [Plugin.Destroy] Window introspection snapshot removed. id=1990407221
+Apr 29 17:48:35 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:35 titan gircore-shell[1549]:       Emitted Introspect.WindowsChanged.
+Apr 29 17:48:35 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:35 titan gircore-shell[1549]:       Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:35 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:48:35 titan gircore-shell[1549]:       [Plugin.Destroy] Window introspection snapshot removed. id=1990407221
+Apr 29 17:48:35 titan gircore-shell[1549]: DBus call: Introspect.GetRunningApplications => 4 apps.
+Apr 29 17:48:35 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:35 titan gircore-shell[1549]:       DBus call: Introspect.GetRunningApplications => 4 apps.
+Apr 29 17:48:47 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.manjaro.pamac.manager.desktop button=1
+Apr 29 17:48:47 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:48:47 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.manjaro.pamac.manager.desktop button=1
+Apr 29 17:48:47 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:47 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch requested. id=org.manjaro.pamac.manager.desktop name=Add/Remove Software file=/usr/share/applications/org.manjaro.pamac.manager.desktop
+Apr 29 17:48:47 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:47 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch result id=org.manjaro.pamac.manager.desktop launched=True.
+Apr 29 17:48:47 titan gircore-shell[1549]: [AppCatalog.Launch] Launch requested. id=org.manjaro.pamac.manager.desktop name=Add/Remove Software file=/usr/share/applications/org.manjaro.pamac.manager.desktop
+Apr 29 17:48:47 titan gircore-shell[1549]: [AppCatalog.Launch] Launch result id=org.manjaro.pamac.manager.desktop launched=True.
+Apr 29 17:48:47 titan systemd[561]: Created slice Slice /app/dbus-:1.2-org.manjaro.pamac.manager.
+Apr 29 17:48:47 titan systemd[561]: Started dbus-:1.2-org.manjaro.pamac.manager@0.service.
+Apr 29 17:48:48 titan gircore-shell[1549]: Emitted Introspect.WindowsChanged.
+Apr 29 17:48:48 titan gircore-shell[1549]: Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:48 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:48 titan gircore-shell[1549]:       Emitted Introspect.WindowsChanged.
+Apr 29 17:48:48 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:48 titan gircore-shell[1549]:       Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:48 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:48:48 titan gircore-shell[1549]:       [Plugin.Map] Window introspection snapshot updated. id=1990407222 app_id=org.manjaro.pamac.manager title=Featured size=970x640 focus=False
+Apr 29 17:48:48 titan gircore-shell[1549]: [Plugin.Map] Window introspection snapshot updated. id=1990407222 app_id=org.manjaro.pamac.manager title=Featured size=970x640 focus=False
+Apr 29 17:48:48 titan gircore-shell[1549]: DBus call: Introspect.GetRunningApplications => 5 apps.
+Apr 29 17:48:48 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:48 titan gircore-shell[1549]:       DBus call: Introspect.GetRunningApplications => 5 apps.
+Apr 29 17:48:57 titan gircore-shell[1549]: [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Software.desktop button=1
+Apr 29 17:48:57 titan gircore-shell[1549]: [AppCatalog.Launch] Launch requested. id=org.gnome.Software.desktop name=Software file=/usr/share/applications/org.gnome.Software.desktop
+Apr 29 17:48:57 titan gircore-shell[1549]: [AppCatalog.Launch] Launch result id=org.gnome.Software.desktop launched=True.
+Apr 29 17:48:57 titan gircore-shell[1549]: info: GirCoreLauncher.GirCoreBar[0]
+Apr 29 17:48:57 titan gircore-shell[1549]:       [GirCoreLauncher.GirCoreBar] Launcher button clicked. id=org.gnome.Software.desktop button=1
+Apr 29 17:48:57 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:57 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch requested. id=org.gnome.Software.desktop name=Software file=/usr/share/applications/org.gnome.Software.desktop
+Apr 29 17:48:57 titan gircore-shell[1549]: info: GirCoreLauncher.Services.GirCoreLauncherCatalog[0]
+Apr 29 17:48:57 titan gircore-shell[1549]:       [AppCatalog.Launch] Launch result id=org.gnome.Software.desktop launched=True.
+Apr 29 17:48:57 titan gircore-shell[1549]: Emitted Introspect.WindowsChanged.
+Apr 29 17:48:57 titan gircore-shell[1549]: Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:57 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:57 titan gircore-shell[1549]:       Emitted Introspect.WindowsChanged.
+Apr 29 17:48:57 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:57 titan gircore-shell[1549]:       Emitted Introspect.RunningApplicationsChanged.
+Apr 29 17:48:57 titan gircore-shell[1549]: info: GirCoreShell.GnomeShellPlugin[0]
+Apr 29 17:48:57 titan gircore-shell[1549]:       [Plugin.Map] Window introspection snapshot updated. id=1990407223 app_id=org.gnome.Software title=Software size=1050x600 focus=False
+Apr 29 17:48:57 titan gircore-shell[1549]: [Plugin.Map] Window introspection snapshot updated. id=1990407223 app_id=org.gnome.Software title=Software size=1050x600 focus=False
+Apr 29 17:48:57 titan gircore-shell[1549]: DBus call: Introspect.GetRunningApplications => 6 apps.
+Apr 29 17:48:57 titan gircore-shell[1549]: info: GirCoreShell.DBus.GnomeShellIntrospectServer[0]
+Apr 29 17:48:57 titan gircore-shell[1549]:       DBus call: Introspect.GetRunningApplications => 6 apps.
+Apr 29 17:49:01 titan gnome-software[1735]: failed to get upgrades: no plugin could handle listing distro upgrades

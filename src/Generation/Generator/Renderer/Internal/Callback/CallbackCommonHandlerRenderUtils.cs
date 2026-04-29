@@ -138,12 +138,17 @@ NativeCallback = ({GetParameterDefinition(parameterData)}{Error.RenderCallback(c
         if (!callback.ReturnType.AnyType.Is<GirModel.Class>() && !callback.ReturnType.AnyType.Is<GirModel.Interface>())
             return string.Empty;
 
+        var isFundamental = callback.ReturnType.AnyType.Is<GirModel.Class>(out var cls) && cls.Fundamental;
+        var handleExpression = isFundamental
+            ? $"{returnVariableName}.Handle"
+            : $"{returnVariableName}.Handle.DangerousGetHandle()";
+
         //GObject with transfer full
         return $$"""
                  if({{returnVariableName}} is not null)
                  {
                      //Add ref which is transferred to C
-                     GObject.Internal.Object.Ref({{returnVariableName}}.Handle.DangerousGetHandle());
+                     GObject.Internal.Object.Ref({{handleExpression}});
                  }
                  """;
     }
